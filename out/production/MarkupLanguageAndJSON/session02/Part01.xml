@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes" ?>
+<!-- Why is the following XML document not well-formed? -->
+<employee>
+    <name>Frank</name>
+    <position>Chef</position>
+</employee>
+
+<employee>
+<name>Ronnie</name>
+<position>Chef</position>
+</employee>
+
+        <!-- Answer : Khong co the Root Node - the khai bao chinh cua file
+
+        -->
+
+        <?xml version="1.0" standalone="yes" ?>
+        <!-- Why is the following XML document not well-formed? -->
+<employee>
+<kitchen_staff/>
+<name language="en">Frank</name>
+<new_hire/>
+<position language="en">Chef</position>
+</employee>
+
+        <!-- Answer : Khong co phan mo cua the " kitchen_staff" va "new_hire" -> doi tuong trong rong; nen viet encoding ="UTF-8" trong
+        the chi thi xu li -->
