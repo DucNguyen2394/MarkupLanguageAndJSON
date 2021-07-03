@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<current>
+    <city id="1581130" name="Hanoi">
+        <coord lon="105.8412" lat="21.0245"/>
+        <country>VN</country>
+        <timezone>25200</timezone>
+        <sun rise="2021-06-30T22:18:36" set="2021-07-01T11:42:00"/>
+    </city>
+    <temperature value="307.15" min="307.15" max="307.15" unit="kelvin"/>
+    <feels_like value="308.33" unit="kelvin"/>
+    <humidity value="39" unit="%"/>
+    <pressure value="1001" unit="hPa"/>
+    <wind>
+        <speed value="3.6" unit="m/s" name="Gentle Breeze"/>
+        <gusts value="5.82"/>
+        <direction value="229" code="SW" name="Southwest"/>
+    </wind>
+    <clouds value="93" name="overcast clouds"/>
+    <visibility value="10000"/>
+    <precipitation mode="no"/>
+    <weather number="804" value="overcast clouds" icon="04d"/>
+    <lastupdate value="2021-07-01T04:06:48"/>
+</current>

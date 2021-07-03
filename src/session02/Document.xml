@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE DOCUMENT [
+        <!ELEMENT document (heading, message)>
+        <!ELEMENT heading (#PCDATA)>
+        <!ELEMENT message (#PCDATA)>
+        ]>
+<document>
+    <heading>
+        Hello from XML
+    </heading>
+    <message>
+        This is an XML document
+    </message>
+</document>
+
+        <!-- How to check the well-formedness of XML documents in NetBeans and in Dreamweaver?
+           ( Làm cách nào để kiểm tra tính ổn định của các tài liệu XML trong NetBeans và trong Dreamweaver? )
+         Answer :
+            Click chuot vao FIle -> View -> File XML se hien len trinh duyet ( IE)
+        -->
