@@ -1,0 +1,11 @@
+<!ELEMENT ST (#PCDATA)>
+        <!ELEMENT FPTAptech (Student+)>
+        <!ELEMENT Student (Name,Sex,Age)>
+        <!ELEMENT Sex (#PCDATA)>
+        <!ELEMENT Age (#PCDATA)>
+        <!ELEMENT Name (LName,FName)>
+        <!ELEMENT LName (#PCDATA)>
+        <!ELEMENT FName (#PCDATA)>
+
+        <!ATTLIST Sex (Male|Female) "Female">
+        <!ATTLIST Age (Age > 14) >
