@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<company>
+    <staff id="0101">
+        <name>fpt-aptech</name>
+        <role>student</role>
+    </staff>
+    <staff id="0202">
+        <name>fpt</name>
+        <role>admin</role>
+    </staff>
+</company>
